@@ -1,0 +1,113 @@
+/* global CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: Montserrat;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    color: #1D1B1B;
+}
+
+section {
+    margin: 40px 0px;
+}
+
+
+.custom-btn {
+    border: 1px solid #EF0178;
+    background: #fff;
+    color: #EF0178;
+    padding: 8px 35px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* banner style start */
+
+.banner .banner-content h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.banner .banner-content span {
+    color: #EF0178;
+}
+
+/* banner style end */
+
+/* meet clients start */
+
+.client-content p {
+    color: #EF0178;
+}
+
+.client-content h5 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+
+/* meet clients end */
+
+/* developer start */
+.developer-content span {
+    color: #5243C2;
+}
+
+.developer-content .fa-solid {
+    color: #5243C2;
+    padding-right: 15px;
+}
+
+
+/* developer end */
+/* service start */
+
+.service-content p {
+    color: #EF0178;
+}
+
+/* service end */
+
+/* hire start */
+
+.hire {
+
+    background: url(../img/Group\ 48095496.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hire-content {
+    background-color: #5243C2;
+    border-radius: 20px;
+}
+
+.hire-content h3 {
+    color: white;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.hire-content .custom-btn {
+    background-color: #EF0178;
+    color: white;
+    padding: 16px 40px;
+    font-size: 16px;
+}
+
+/* hire end */
