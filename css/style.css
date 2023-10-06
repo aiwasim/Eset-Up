@@ -31,10 +31,6 @@ section {
     border-radius: 5px;
 }
 
-
-
-
-
 /* banner style start */
 
 .banner .banner-content h1 {
@@ -48,7 +44,7 @@ section {
 
 /* banner style end */
 
-/* meet clients start */
+/* meet clients style start */
 
 .client-content p {
     color: #EF0178;
@@ -61,9 +57,9 @@ section {
 }
 
 
-/* meet clients end */
+/* meet clients style end */
 
-/* developer start */
+/* developer style start */
 .developer-content span {
     color: #5243C2;
 }
@@ -74,16 +70,16 @@ section {
 }
 
 
-/* developer end */
-/* service start */
+/* developer style end */
+/* service style start */
 
 .service-content p {
     color: #EF0178;
 }
 
-/* service end */
+/* service style end */
 
-/* hire start */
+/* hire style start */
 
 .hire {
 
@@ -110,4 +106,107 @@ section {
     font-size: 16px;
 }
 
-/* hire end */
+/* hire style end */
+
+/* price style start */
+
+
+
+.price .price-card {
+    box-shadow: 0px 7px 33px -18px;
+    border-radius: 20px;
+    transition: all linear 0.5s;
+    transform: translateY(0px);
+
+}
+
+.price .price-card span {
+    font-size: 16px;
+}
+
+.text-color {
+    color: #918fa0;
+}
+
+.price .custom-btn {
+    background-color: #EF0178;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    padding: 10px 45px;
+}
+
+.price .price-card:hover {
+    background-color: #5243C2;
+    color: #fff;
+    transform: translateY(-30px);
+    box-shadow: 6px 6px 40px 10px grey;
+
+}
+
+/* price style end */
+
+/* slider style start */
+
+.slider {
+    background-color: #F7F7F7;
+}
+
+
+.carousel-btn-prev,
+.carousel-btn-next {
+    background-color: #7052C1;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.carousel-card-content {
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    margin-top: -20px;
+    padding-top: 30px;
+}
+
+.carousel-card-content .fa-solid {
+    color: #F6973F;
+}
+
+/* slider style end */
+
+
+/* Footer style start */
+
+footer {
+    background-color: #0C111F;
+}
+
+.footer-form input {
+    background: #1F2431;
+    border: none;
+    padding: 10px 35px;
+}
+
+footer .custom-btn {
+    background: #5243C2;
+    border: none;
+    color: #fff;
+}
+
+/* Footer style end */
+
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .price-card {
+        padding: 100px;
+    }
+}
